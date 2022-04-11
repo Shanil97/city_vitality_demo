@@ -1,0 +1,4 @@
+pandas==1.1.5
+pydeck==0.6.2
+streamlit==0.87.0
+xlrd<2.0
