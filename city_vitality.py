@@ -3,7 +3,7 @@ import pandas as pd
 import pydeck as pdk
 
 # read data
-df = pd.read_csv("https://raw.githubusercontent.com/Shanil97/city_vitality_demo/main/western_cvi.csv.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/Shanil97/city_vitality_demo/main/western_cvi.csv")
 
 # getting unique values for filters
 district = df['District'].drop_duplicates()
